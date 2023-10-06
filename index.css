@@ -1,14 +1,16 @@
 body{
     background-color: black;
     color: whitesmoke;
-    transition: 00.6s ease;
+    transition: 00.8s ease;
 }
 h1{
-    font-size: 45px;
-    border: 6px solid;
+    font-size: 50px;
+    border: 2px solid;
     border-color: aquamarine;
     border-radius: 15px;
-    transition: 00.6s ease;
+    transition: 00.8s ease; 
+    border-spacing: 15px;
+    text-align: center;
 }
 html{
     transition: 00.8s ease;
