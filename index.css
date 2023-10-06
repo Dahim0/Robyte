@@ -1,17 +1,25 @@
-body{
+body {
     background-color: black;
     color: whitesmoke;
-    transition: 00.8s ease;
 }
-h1{
+
+h1 {
     font-size: 50px;
     border: 2px solid;
     border-color: aquamarine;
     border-radius: 15px;
-    transition: 00.8s ease; 
     border-spacing: 15px;
     text-align: center;
+    transition: 0.4s linear;
+
 }
-html{
-    transition: 00.8s ease;
+
+.hml {
+    color: rgb(2, 99, 156);
+    background: gainsboro;
+    transition: background 1.6s ease-in-out 0s;
+}
+
+.hml:hover {
+    background: black;
 }
