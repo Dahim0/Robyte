@@ -4,6 +4,7 @@ body{
 }
 h1{
     font-size: 45px;
-    border: 6px cyan;
+    border: 6px solid;
+    border-color: aquamarine;
     border-radius: 15px;
 }
