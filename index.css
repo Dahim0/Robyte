@@ -2,3 +2,8 @@ body{
     background-color: black;
     color: antiquewhite;
 }
+h1{
+    font-size: 45px;
+    border: 6px cyan;
+    border-radius: 15px;
+}
