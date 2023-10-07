@@ -1,15 +1,21 @@
 .hml {
-    background: gainsboro;
+    background: rgb(174, 223, 212);
     transition: background 1.6s ease-in-out 0s;
+    transition: border-radius 1.6s ease-in-out 0s;
+    text-size-adjust: 20px;
+    
 }
 
 .hml:hover {
     background: black;
+    border-radius: 20px;
+    
 }
 .hmil{
-    color:black;
-    transition: 1.0s ease-in-out 0s;
+    color: rgba(0, 0, 0, 0);
+    transition: 1.6s ease-in-out 0s;
+    pointer-events:visible;
 }
 .hmil:hover{
-    color: white;
+    color: rgb(24, 139, 3);
 }
