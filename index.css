@@ -6,7 +6,7 @@ body {
 h1 {
     font-size: 100px;
     border: 2px solid;
-    border-radius: 100% 0% 100% 0%;
+    border-radius: 100px 0px 100px 0px;
     border-color: #ff0084;
     width: min-content;
     margin: auto;
@@ -17,12 +17,13 @@ h1 {
     transition: all 1.6s ease-in-out 0s;
     font-size: 40px;
     color: #00ff84;
+    border-width: 0.5px;
 
 }
 h1:hover{
     font-size: 100px;
     color: #ff0084;
-    border-radius: 0% 100% 0% 100%;
+    border-radius: 0px 100px 0px 100px;
     border-color: #00ff84;
 }
 p{
@@ -30,6 +31,5 @@ p{
 }
 .byte{
     font-family: 'Major Mono Display', monospace;
-    letter-spacing: 0.001px;
 }
 
