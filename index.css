@@ -25,5 +25,11 @@ h1:hover{
     border-radius: 0% 100% 0% 100%;
     border-color: #00ff84;
 }
-
+p{
+    font-size: x-large;
+}
+.byte{
+    font-family: 'Major Mono Display', monospace;
+    letter-spacing: 0.001px;
+}
 
