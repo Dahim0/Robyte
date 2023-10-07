@@ -6,13 +6,24 @@ body {
 h1 {
     font-size: 100px;
     border: 2px solid;
-    border-radius: 20px;
-    border-color: rgb(1, 142, 36);
+    border-radius: 100% 0% 100% 0%;
+    border-color: #ff0084;
     width: min-content;
     margin: auto;
     padding-right: 15px;
     padding-left:  15px;
     font-family: 'Orbitron', sans-serif;
+    background: rgb(0, 0, 0);
+    transition: all 1.6s ease-in-out 0s;
+    font-size: 40px;
+    color: #00ff84;
 
 }
+h1:hover{
+    font-size: 100px;
+    color: #ff0084;
+    border-radius: 0% 100% 0% 100%;
+    border-color: #00ff84;
+}
+
 
