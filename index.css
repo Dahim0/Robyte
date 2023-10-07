@@ -4,22 +4,15 @@ body {
 }
 
 h1 {
-    font-size: 50px;
+    font-size: 100px;
     border: 2px solid;
     border-color: aquamarine;
     border-radius: 15px;
-    border-spacing: 15px;
-    text-align: center;
-    transition: 0.4s linear;
+    width: fit-content;
+    margin: auto;
+    padding-right: 15px;
+    padding-left:  15px;
+    font-family: 'Orbitron', sans-serif;
 
 }
 
-.hml {
-    color: rgb(2, 99, 156);
-    background: gainsboro;
-    transition: background 1.6s ease-in-out 0s;
-}
-
-.hml:hover {
-    background: black;
-}

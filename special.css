@@ -1,0 +1,15 @@
+.hml {
+    background: gainsboro;
+    transition: background 1.6s ease-in-out 0s;
+}
+
+.hml:hover {
+    background: black;
+}
+.hmil{
+    color:black;
+    transition: 1.0s ease-in-out 0s;
+}
+.hmil:hover{
+    color: white;
+}
