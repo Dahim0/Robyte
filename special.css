@@ -1,21 +1,11 @@
-.hml {
-    background: rgb(174, 223, 212);
-    transition: background 1.6s ease-in-out 0s;
-    transition: border-radius 1.6s ease-in-out 0s;
-    text-size-adjust: 20px;
-    
+h1 {
+    background: rgb(0, 0, 0);
+    transition: all 1.6s ease-in-out 0s;
+    font-size: 40px;
+    color: rgb(2, 76, 119);
 }
 
-.hml:hover {
-    background: black;
-    border-radius: 20px;
-    
-}
-.hmil{
-    color: rgba(0, 0, 0, 0);
-    transition: 1.6s ease-in-out 0s;
-    pointer-events:visible;
-}
-.hmil:hover{
+h1:hover {
+    font-size: 100px;
     color: rgb(24, 139, 3);
 }

@@ -1,10 +1,10 @@
-var hml = document.getElementById('element');
+var h1 = document.getElementById('element');
 
-hml.addEventListener('mouseover', function() {
- hml.classList.add('hover');
+h1.addEventListener('mouseover', function() {
+ h1.classList.add('hover');
 });
 
-hml.addEventListener('mouseout', function() {
- hml.classList.remove('hover');
+h1.addEventListener('mouseout', function() {
+ h1.classList.remove('hover');
 });
 javascript

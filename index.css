@@ -6,9 +6,9 @@ body {
 h1 {
     font-size: 100px;
     border: 2px solid;
+    border-radius: 20px;
     border-color: rgb(1, 142, 36);
-    border-radius: 0% 100% 0% 100%;
-    width: fit-content;
+    width: min-content;
     margin: auto;
     padding-right: 15px;
     padding-left:  15px;
