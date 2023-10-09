@@ -32,4 +32,7 @@ p{
 .byte{
     font-family: 'Major Mono Display', monospace;
 }
-
+.Robyte{
+    color: rgba(0, 0, 0, 0);
+    font-size: 1px;
+}
