@@ -58,3 +58,8 @@ header{
     padding: 2px;
     text-decoration: none;
 }
+a{
+    color: cyan;
+    font-style: italic;
+    text-decoration: underline;
+}
