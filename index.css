@@ -4,9 +4,9 @@ body {
 }
 
 h1 {
-    border: 2px solid;
+    border: 5px solid;
     border-radius: 100px 0px 100px 0px;
-    border-color: #ff0084;
+    border-color: crimson;
     width: min-content;
     margin: auto;
     padding-right: 15px;
@@ -15,19 +15,20 @@ h1 {
     background: rgb(0, 0, 0);
     transition: all 1.6s ease-in-out 0s;
     font-size: 60px;
-    color: #00ff84;
+    color: darkcyan;
     border-width: 0.5px;
     margin-top: 0px;
-    margin-bottom: 60px;
+    margin-bottom: 40px;
 }
 h1:hover{
     font-size: 100px;
-    color: #ff0084;
+    color: crimson;
     border-radius: 0px 100px 0px 100px;
-    border-color: #00ff84;
+    border-color: darkcyan;
+    border: 11px;
 }
 p{
-    font-size: x-large;
+    font-size: 17px;
 }
 .byte{
     font-family: 'Major Mono Display', monospace;
@@ -62,4 +63,10 @@ a{
     color: cyan;
     font-style: italic;
     text-decoration: underline;
+}
+h2{
+    font-size: 40px;
+    font-style: italic;
+    color: crimson;
+    
 }
