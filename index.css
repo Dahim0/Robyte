@@ -4,7 +4,6 @@ body {
 }
 
 h1 {
-    font-size: 100px;
     border: 2px solid;
     border-radius: 100px 0px 100px 0px;
     border-color: #ff0084;
@@ -15,11 +14,11 @@ h1 {
     font-family: 'Orbitron', sans-serif;
     background: rgb(0, 0, 0);
     transition: all 1.6s ease-in-out 0s;
-    font-size: 40px;
+    font-size: 60px;
     color: #00ff84;
     border-width: 0.5px;
     margin-top: 0px;
-
+    margin-bottom: 60px;
 }
 h1:hover{
     font-size: 100px;
@@ -40,8 +39,12 @@ header{
     background-color: gray;
     border: 2px white;
     display:block;
-    white-space: nowrap; /* Add this line */
+    width: fit-content;
     overflow-x: auto; /* Add this line */
+    margin: 0px 0px 0px 0px;
+    font-size: 23px;
+    font-family: 'Major Mono Display', monospace;
+
 }
 .menu li {
     display: inline-block;
