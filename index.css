@@ -18,6 +18,7 @@ h1 {
     font-size: 40px;
     color: #00ff84;
     border-width: 0.5px;
+    margin-top: 0px;
 
 }
 h1:hover{
@@ -32,7 +33,25 @@ p{
 .byte{
     font-family: 'Major Mono Display', monospace;
 }
-.Robyte{
-    color: rgba(0, 0, 0, 0);
-    font-size: 1px;
+header{
+    background-color: grey;
+}
+.menu{
+    background-color: gray;
+    border: 2px white;
+    display:block;
+    white-space: nowrap; /* Add this line */
+    overflow-x: auto; /* Add this line */
+}
+.menu li {
+    display: inline-block;
+    margin-right: 10px;
+    border: 20px black;
+}
+.menu a{
+    color: white;
+    border: 2px solid #00ff84;
+    border-radius: 5px;
+    padding: 2px;
+    text-decoration: none;
 }
