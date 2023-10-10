@@ -16,6 +16,7 @@
 .blogs h2{
     background-color: gray;
     position: relative;
+    padding-right: 150px;
     z-index: -100;
     border-radius: 0px;
     margin:auto;
