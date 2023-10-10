@@ -28,3 +28,6 @@ body{
 .blogs img{
     width: 300px;
 }
+.blogs:hover{
+    rotate(5deg);
+}
