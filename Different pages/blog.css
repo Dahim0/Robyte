@@ -29,5 +29,5 @@ body{
     width: 300px;
 }
 .blogs:hover{
-    rotate(5deg);
+    rotate: 10eg;
 }
