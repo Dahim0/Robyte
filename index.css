@@ -15,7 +15,7 @@ h1 {
     background: rgb(0, 0, 0);
     transition: all 1.6s ease-in-out 0s;
     font-size: 60px;
-    color: darkcyan;
+    color: darkturquoise;
     border-width: 0.5px;
     margin-top: 0px;
     margin-bottom: 40px;
@@ -24,8 +24,7 @@ h1:hover{
     font-size: 100px;
     color: crimson;
     border-radius: 0px 100px 0px 100px;
-    border-color: darkcyan;
-    border: 11px;
+    border-color: darkturquoise;
 }
 p{
     font-size: 17px;
@@ -67,6 +66,15 @@ a{
 h2{
     font-size: 40px;
     font-style: italic;
-    color: crimson;
-    
+    color: crimson;   
+}
+h3{
+    font-size: 25px;
+}
+.us{
+    text-decoration: line-through;
+    font-style: italic;
+}
+.Social{
+    letter-spacing: 15px;
 }
