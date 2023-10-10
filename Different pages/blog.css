@@ -4,10 +4,15 @@
 
 }
 .blogs{
-    width: 220px;
+    width: fit-content;
     border: 5px solid rgb(177, 151, 17);
     border-radius: 10px;
-    padding-bottom: 100px;
+    padding-bottom: auto;
+}
+.blogs a{
+    color: white;
+    text-decoration: none;
+    font-style: normal;
 }
 .blogs h2{
     background-color: gray;
