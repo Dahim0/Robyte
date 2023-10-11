@@ -4,27 +4,22 @@ body {
 }
 
 h1 {
-    border: 5px solid;
-    border-radius: 100px 0px 100px 0px;
+    border: 2px solid;
+    border-radius: 20px;
     border-color: crimson;
-    width: min-content;
+    width: fit-content;
     margin: auto;
     padding-right: 15px;
     padding-left:  15px;
     font-family: 'Orbitron', sans-serif;
     background: rgb(0, 0, 0);
-    transition: all 1.6s ease-in-out 0s;
+    transition: all 0.8s ease-in-out 0s;
     font-size: 60px;
     color: darkturquoise;
-    border-width: 0.5px;
-    margin-top: 0px;
     margin-bottom: 40px;
 }
 h1:hover{
     font-size: 100px;
-    color: crimson;
-    border-radius: 0px 100px 0px 100px;
-    border-color: darkturquoise;
 }
 p{
     font-size: 17px;
@@ -33,40 +28,43 @@ p{
     font-family: 'Major Mono Display', monospace;
 }
 header{
-    background-color: grey;
+    background-color: rgb(0, 0, 0);
 }
 .menu{
-    background-color: gray;
-    border: 2px white;
     display:block;
     width: fit-content;
-    overflow-x: auto; /* Add this line */
-    margin: 0px 0px 0px 0px;
+    overflow-x: auto; 
+    margin: 0px;
     font-size: 21px;
-    font-family: 'Major Mono Display', monospace;
-
 }
 .menu li {
     display: inline-block;
     margin-right: 10px;
-    border: 20px black;
 }
 .menu a{
     color: white;
-    border: 2px solid #00ff84;
+    background-color: black;
+    border: rgb(255 255 255) 2px solid;
     border-radius: 5px;
-    padding: 2px;
+    padding: 1.6px;
     text-decoration: none;
 }
+.menu a:hover{
+    font-size:21.9px;
+    border-width: 3px;
+    
+}
+
 a{
     color: cyan;
     font-style: italic;
     text-decoration: underline;
 }
 .h2{
-    font-size: 40px;
-    font-style: italic;
-    color: crimson;   
+    font-size: 42px;
+    text-align:center;
+    color: white;
+    font-family:monospace;
 }
 h3{
     font-size: 25px;
