@@ -1,20 +1,18 @@
-body {
-    background-color: black;
-    color: whitesmoke;
-}
+body{
+    background-color:cyan
+  }
 
-h1 {
-    fomt-size: 70px;
+h1{
+    font-family: system-ui;
+    color: white;
+    margin:auto;
+    border: 0px solid;
+    border-radius: 10px;
+    background-color:rgba(0,0,0,0.35);
     width: fit-content;
-    margin: auto;
-    padding-right: 15px;
-    padding-left:  15px;
-    font-family: 'Orbitron', sans-serif;
-    background: rgb(0 0 0);
-    font-size: 100px;
-    color: #8bfdff;
-    margin-bottom: 40px;
-}
+    padding-right:20px;
+    padding-left:20px;
+  }
 p{
     font-size: 17px;
 }
