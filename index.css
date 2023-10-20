@@ -14,8 +14,15 @@ h1{
     padding-left:20px;
     font-size: 85px;
   }
-p{
-    font-size: 17px;
+.AboutMe{
+  width: 500px;
+  font-size: 17px;
+  border: 4px #3498db solid;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #ccf4fa;
+  word-spacing: 10px;
+  padding-left: 40px;
 }
 
 .menu{
@@ -63,3 +70,35 @@ h3{
 .Social{
     letter-spacing: 15px;
 }
+.description {
+    border: 2px solid #3498db;
+    padding: 0px 10PX;
+    padding-left: 40px;
+    border-radius: 10px;    
+    width: 500px;
+    background-color: #ccf4fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    word-spacing: 10px;
+  }
+  
+  /* Emphasize key points */
+  .red {
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  
+  /* Highlight the call to action */
+
+  
+  /* Add a flourish */
+  .flourish {
+    margin-left: 0px;
+    font-size: 24px;
+    color: purple;
+    font-size: 22.5px;
+    text-decoration: none;
+  }
+  .flourish:hover{
+    text-decoration: underline;
+
+  }
