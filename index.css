@@ -1,5 +1,5 @@
 body{
-    background-color:cyan
+    background-color: #0092AF;
   }
 
 h1{
@@ -12,6 +12,7 @@ h1{
     width: fit-content;
     padding-right:20px;
     padding-left:20px;
+    font-size: 85px;
   }
 p{
     font-size: 17px;
