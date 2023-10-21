@@ -62,6 +62,7 @@ h3{
     letter-spacing: 15px;
 }
 .description {
+  text-align: center;
     font-size: 25px;
     border: 2px solid #3498db;
     padding: 10px;
@@ -73,14 +74,14 @@ h3{
     margin: auto;
   }
   .AboutMe{
+    text-align: center;
     width: 700px;
     font-size: 25px;
     border: 4px #3498db solid;
     border-radius: 10px;
-    padding: 5px;
+    padding: 10px 15px 10px 15px;
     background-color: #ccf4fa;
     word-spacing: 10px;
-    padding-left: 40px;
     margin: auto;
   }
   
@@ -99,10 +100,14 @@ h3{
     color: purple;
     font-size: 22.5px;
     text-decoration: none;
-
-  }
+    border: 0px black solid;
+    background-color: black;
+    padding: 5px;
+    padding-top: 0%;
+    border-radius: 0px 0px 20px 20px;
+    }
   .flourish:hover{
+    transition: all 1s ease-in-out 0s ;
     text-decoration: underline;
-
   }
   
