@@ -21,7 +21,7 @@ h1{
     width: fit-content;
     overflow-x: auto;
     margin: 0px;
-    /* font-size: 21px; */
+    margin:center;
 }
 .menu li {
     display: inline-block;
