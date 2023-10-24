@@ -13,8 +13,14 @@ a{
     text-decoration-color: blue;
     text-decoration-style: solid;
     text-decoration-thickness: 2px;
+    width:170px;
+    text-align: center;
+    display:list-item;
 }
 a:hover{
     text-decoration-style: wavy;
     text-decoration-thickness: 2px;
+}
+body{
+ display:grid;
 }
