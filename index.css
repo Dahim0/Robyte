@@ -29,10 +29,14 @@ h1{
 }
 .menu a{
     color: white;
-    background-color: black;
-    border-radius: 5px;
-    padding: 1.6px;
-    text-decoration: none;
+    border: 2px black solid;
+    border-radius: 10px;
+    font-size:15px;
+    margin: 5px;
+    padding: 5px;
+    width:170px;
+    text-align: center;
+    display:list-item;
 }
 .menu a:hover{
     font-size:23px;
