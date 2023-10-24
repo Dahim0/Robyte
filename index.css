@@ -19,9 +19,9 @@ h1{
 .menu{
     display:block;
     width: fit-content;
-    overflow-x: auto; 
+    overflow-x: auto;
     margin: 0px;
-    font-size: 21px;
+    /* font-size: 21px; */
 }
 .menu li {
     display: inline-block;
@@ -32,21 +32,24 @@ h1{
     border: 2px black solid;
     border-radius: 10px;
     font-size:15px;
-    margin: 5px;
+    /* margin: 5px; */
     padding: 5px;
     width:170px;
     text-align: center;
-    display:list-item;
+    display: block;
+    margin: 10px;
 }
 .menu a:hover{
     font-size:23px;
     border-width: 3px;
-    
+    margin: -5px;
+    margin-left: 10px;
+    margin-right:10px;
 }
 
 a{
-    color: cyan;
-    font-style: italic;
+    /* color: cyan; */
+    /* font-style: italic; */
     text-decoration: underline;
 }
 .h2{
