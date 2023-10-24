@@ -2,7 +2,7 @@
     background-color: darkcyan;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #419ffc , 0 0 50px white;
 }
-a{
+.link{
     color: black;
     border: 2px black solid;
     border-radius: 10px;
@@ -17,7 +17,7 @@ a{
     text-align: center;
     display:list-item;
 }
-a:hover{
+.link:hover{
     text-decoration-style: wavy;
     text-decoration-thickness: 2px;
 }
