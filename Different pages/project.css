@@ -7,4 +7,6 @@ a{
     border: 2px black solid;
     border-radius: 10px;
     font-size:15px;
+    margin: 5px;
+    padding: 5px;
 }
