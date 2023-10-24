@@ -2,3 +2,9 @@
     background-color: darkcyan;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #419ffc , 0 0 50px white;
 }
+a{
+    color: black;
+    border: 2px black solid;
+    border-radius: 10px;
+    font-size:15px;
+}
