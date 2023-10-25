@@ -1,27 +1,26 @@
 .blog{
-    background-color: darkcyan;
+    background-color: #5badad;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #419ffc , 0 0 50px white;
+}
+.blogs h2{
+    padding-right: 150px;
+    z-index: 1;
+    border-radius: 0px;
+    margin:auto;
 }
 .blogs{
     width: fit-content;
-    border: 5px solid rgb(177, 151, 17);
+    border: 5px solid #fc357c;
     border-radius: 10px;
     transition: all 0.5s ease-in-out;
     margin-top: 20px;
     margin-left:10px;
+    background-color:black;
 }
 .blogs a{
     color: white;
     text-decoration: none;
     font-style: normal;
-}
-.blogs h2{
-    background-color: gray;
-    position: relative;
-    padding-right: 150px;
-    z-index: -100;
-    border-radius: 0px;
-    margin:auto;
 }
 .blogs img{
     width: 300px;
