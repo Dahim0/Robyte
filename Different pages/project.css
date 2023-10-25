@@ -2,25 +2,21 @@
     background-color: darkcyan;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #419ffc , 0 0 50px white;
 }
-.link{
+.link a{
     color: black;
     border: 2px black solid;
     border-radius: 10px;
     font-size:15px;
-    margin: 5px;
+    margin-top: 20px;
+    margin-left:10px;
     padding: 5px;
     background-color: darkseagreen;
-    text-decoration-color: blue;
-    text-decoration-style: solid;
-    text-decoration-thickness: 2px;
-    width:170px;
+    width:180px;
     text-align: center;
-    display:list-item;
+    text-decoration:none;
+    display:block;
 }
-.link:hover{
-    text-decoration-style: wavy;
-    text-decoration-thickness: 2px;
-}
+
 body{
  display:grid;
 }
