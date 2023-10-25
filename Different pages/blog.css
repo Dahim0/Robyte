@@ -7,6 +7,8 @@
     border: 5px solid rgb(177, 151, 17);
     border-radius: 10px;
     transition: all 0.5s ease-in-out;
+    margin-top: 20px;
+    margin-left:10px;
 }
 .blogs a{
     color: white;
@@ -25,6 +27,8 @@
     width: 300px;
 }
 .blogs:hover{
-    rotate: 5deg;
-}
+    margin-top:10px;
+    margin-left:0px;
+    box-shadow: 9px 9px 16px 2px rgba(0,0,0,0.7);
 
+}
