@@ -20,6 +20,7 @@
   transition: all 0.1s ease-in-out 0s;
     font-size:110%;
     rotate: -5deg;
+    margin-top: 16.5px;
 }
 body{
  display:grid;
