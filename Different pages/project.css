@@ -10,13 +10,17 @@
     margin-top: 20px;
     margin-left:10px;
     padding: 5px;
-    background-color: darkseagreen;
+    background-color: darkcyan;
     width:180px;
     text-align: center;
     text-decoration:none;
     display:block;
 }
-
+.link a:hover{
+  transition: all 0.1s ease-in-out 0s;
+    font-size:110%;
+    rotate: -5deg;
+}
 body{
  display:grid;
 }
