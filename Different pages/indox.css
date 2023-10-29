@@ -2,3 +2,42 @@
     background-color: darkcyan;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #419ffc , 0 0 50px white;
 }
+@media screen and (max-width: 600px) {
+    .description{
+        width: 500px;
+
+    }
+    .AboutMe{
+      width: 500px;
+    }
+    .blocks{
+      display: block;
+
+    }
+}
+@media screen and (max-width: 500px) {
+  .description{
+      width: 400px;
+
+  }
+  .AboutMe{
+    width: 400px;
+  }
+  .blocks{
+    display: block;
+
+  }
+}
+@media screen and (max-width: 400px) {
+.description{
+    width: 300px;
+
+}
+.AboutMe{
+  width: 300px;
+}
+.blocks{
+  display: block;
+
+}
+}
