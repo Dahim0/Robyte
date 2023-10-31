@@ -3,7 +3,129 @@ body{
   }
 .menu{
     display:block;
+    width: fit-content;body{
+    background-color: #0092AF;
+  }
+.menu{
+    display:block;
     width: fit-content;
+    overflow-x: auto;
+    margin: 0px;
+    margin:auto;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    width: fit-content;
+}
+.nav-links{
+  padding: 0%;
+}
+.menu li {
+    display: inline-block;
+    padding: 5px;
+}
+.menu a{
+          text-decoration: none;
+          font-size: larger;
+          color: white;
+          margin: 5px;
+          border: 0px crimson solid;
+          border-radius: 10px;
+          padding: 2.5px 5px 2.5px 5px;
+          margin-bottom: 20px;
+          margin-top: 10px;
+          background: #419ffc;
+          box-shadow: darkcyan 0px 5px;
+}
+
+a {}
+.menu a:active{
+  border-width: 1.5px;
+}
+
+
+a{
+    text-decoration: underline;
+}
+.h2{
+    font-size: 42px;
+    text-align:center;
+    color: white;
+    font-family:monospace;
+    margin: auto;
+}
+h3{
+    font-size: 40px;
+}
+.us{
+    text-decoration: line-through;
+    font-style: italic;
+}
+.Social{
+    letter-spacing: 15px;
+}
+.description {
+  text-align: center;
+    font-size: 25px;
+    border: 2px solid #3498db;
+    padding: 10px;
+    border-radius: 10px;    
+    width: 700px;
+    background-color: #ccf4fa;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    word-spacing: 10px;
+    margin: auto;
+  }
+  .AboutMe{
+    text-align: center;
+    width: 700px;
+    font-size: 25px;
+    border: 4px #3498db solid;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    background-color: #ccf4fa;
+    word-spacing: 10px;
+    margin: auto;
+  }
+  .red {
+    font-weight: bold;
+    color: #e74c3c;
+  }
+  .flourish {
+    margin-left: 18em;
+    color: purple;
+    font-size: 22.5px;
+    text-decoration: none;
+    border: 0px black solid;
+    background-color: black;
+    padding: 5px;
+    padding-top: 0%;
+    border-radius: 0px 0px 20px 20px;
+    }
+  .flourish:hover{
+    transition: all 1s ease-in-out 0s ;
+    text-decoration: underline;
+  }
+#Robyte{
+    margin: auto;
+    margin-bottom: 50px;
+    width: fit-content;
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'ADLaM Display';
+    border: 4px cyan solid;
+    padding: 5px 15px 10px 15px;
+    border-radius: 50px;
+    background-color: darkcyan;
+    color:white;
+    text-shadow: 0px 0px 20px white;
+    box-shadow: 0px 15px 7px 0px black;
+}
+#Robyte:active{
+    margin-top: 16px;
+    box-shadow: none;
+    margin-bottom: 34px;
+}
+
     overflow-x: auto;
     margin: 0px;
     margin:auto;
