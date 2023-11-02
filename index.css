@@ -244,7 +244,7 @@ h3{
     margin-bottom: 34px;
 }
 /* this is the code 
-#Robyte{
+.nav a{
     margin: auto;
     margin-bottom: 50px;
     width: fit-content;
@@ -260,7 +260,7 @@ h3{
   text-decoration:none;
   display:inherit;
 }
-#Robyte:active{
+.nav a:active{
     margin-top: 16px;
     box-shadow: none;
 }*/
