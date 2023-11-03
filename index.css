@@ -9,11 +9,13 @@ a{
     text-decoration: underline;
 }
 .h2{
+      margin: auto;
     font-size: 42px;
     text-align:center;
+    margin-top:30px;
     color: white;
     font-family:monospace;
-    margin: auto;
+
 }
 h3{
     font-size: 40px;
