@@ -106,7 +106,7 @@ h3{
     display:inherit;
 }
 .nav a:active{
-    margin-top: 16px;
+    margin-bottom: 36px;
     box-shadow: none;
 }
 .nav{
