@@ -1,7 +1,3 @@
-.indox{
-    background-color: darkcyan;
-    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #419ffc , 0 0 50px white;
-}
 @media screen and (max-width: 600px) {
     .description{
         width: 500px;
