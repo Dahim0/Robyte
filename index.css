@@ -28,27 +28,26 @@ h3{
     letter-spacing: 15px;
 }
 .description {
-  text-align: center;
-    font-size: 25px;
-    border: 2px solid #3498db;
-    padding: 10px;
-    border-radius: 10px;    
-    width: 700px;
-    background-color: #ccf4fa;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    word-spacing: 10px;
-    margin: auto;
+
+  border: solid 0px crimson;
+  width:fit-content;
+  margin:auto;
+  padding:30px;
+  border-radius:60px;
+  background-color:aquamarine;
+  box-shadow: inset 0px 0px 10px 2.5px white,  2px 0px 0px 1px cyan, -5px 0px 0px 1px crimson; 
+  font-size:20px;
   }
   .AboutMe{
-    text-align: center;
-    width: 700px;
-    font-size: 25px;
-    border: 4px #3498db solid;
-    border-radius: 10px;
-    padding: 10px 15px 10px 15px;
-    background-color: #ccf4fa;
-    word-spacing: 10px;
-    margin: auto;
+
+  border: solid 0px crimson;
+  width:fit-content;
+  margin:auto;
+  padding:30px;
+  border-radius:60px;
+  background-color:aquamarine;
+  box-shadow: inset 0px 0px 10px 2.5px white,  2px 0px 0px 1px cyan, -5px 0px 0px 1px crimson; 
+  font-size:20px;
   }
   .red {
     font-weight: bold;
