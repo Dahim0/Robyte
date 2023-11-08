@@ -27,28 +27,8 @@ h3{
 .Social{
     letter-spacing: 15px;
 }
-.description {
-
-  border: solid 0px crimson;
-  width:fit-content;
-  margin:auto;
-  padding:30px;
-  border-radius:60px;
-  background-color:aquamarine;
-  box-shadow: inset 0px 0px 10px 2.5px white,  2px 0px 0px 1px cyan, -5px 0px 0px 1px crimson; 
-  font-size:20px;
-  }
-  .AboutMe{
-
-  border: solid 0px crimson;
-  width:fit-content;
-  margin:auto;
-  padding:30px;
-  border-radius:60px;
-  background-color:aquamarine;
-  box-shadow: inset 0px 0px 10px 2.5px white,  2px 0px 0px 1px cyan, -5px 0px 0px 1px crimson; 
-  font-size:20px;
-  }
+.description {border: solid 0px crimson;width:fit-content;margin:auto;padding:30px;border-radius: 2000px;background-color:aquamarine;box-shadow: inset 0px 0px 10px 2.5px white,  2px 0px 0px 1px cyan, -5px 0px 0px 1px crimson;font-size:20px;text-align: center;}
+  .AboutMe{border: solid 0px crimson;width:fit-content;margin:auto;padding:30px;border-radius:60px;background-color:aquamarine;box-shadow: inset 0px 0px 10px 2.5px white,  2px 0px 0px 1px cyan, -5px 0px 0px 1px crimson;font-size:20px;text-align: center;}
   .red {
     font-weight: bold;
     color: #e74c3c;
