@@ -1,39 +1,54 @@
-@media screen and (max-width: 600px) {
-    .description{
-        width: 500px;
-
-    }
-    .AboutMe{
-      width: 500px;
-    }
-    .blocks{
-      display: block;
-
-    }
-}
-@media screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
   .description{
-      width: 400px;
-
-  }
-  .AboutMe{
-    width: 400px;
-  }
-  .blocks{
-    display: block;
-
+    width: 500xp;
+    
   }
 }
-@media screen and (max-width: 400px) {
-.description{
-    width: 300px;
-
+@media only screen and (max-width: 800px) {
+  .description{
+    width: 700xp;
+    
+  }
 }
-.AboutMe{
-  width: 300px;
+@media only screen and (max-width: 700px) {
+  .description{
+    width: 500xp;
+    
+  }
 }
-.blocks{
-  display: block;
-
+@media only screen and (max-width: 900px) {
+  .description{
+    width: 800xp;
+    
+  }
 }
+@media only screen and (max-width: 200px) {
+  .description{
+    width: 100xp;
+    
+  }
+}
+@media only screen and (max-width: 300px) {
+  .description{
+    width: 200xp;
+    
+  }
+}
+@media only screen and (max-width: 400px) {
+  .description{
+    width: 300xp;
+    
+  }
+}
+@media only screen and (max-width: 500px) {
+  .description{
+    width: 600xp;
+    
+  }
+}
+@media only screen and (max-width: 100px) {
+  .description{
+    width: 50xp;
+    
+  }
 }
